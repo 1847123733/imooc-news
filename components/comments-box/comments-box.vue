@@ -63,7 +63,7 @@
 				// 为了区分  主回复 还是子回复
 				if(comment.is_reply){
 					// 子回复
-
+					console.log(1111);
 					comment.comments.reply_id = comment.comments.comment_id
 					comment.comments.comment_id = this.comments.comment_id
 					console.log(this.comments,'子回复的id')
